@@ -1,6 +1,6 @@
 +  Wine quality can be influenced by a multitude of factors, from the chemical composition and fermentation process to the growing conditions and the winemaking techniques.
 
-+  The project aims to develop a classification system for the "Wine Quality" dataset to predict wine quality using the PCA algorithm and the Bayes Classifier under the assumption of normal(gaussian) distribution. My goal was therefore to observe how many pca components should be applied, but also what was the ideal Train - Test split ratio, in order to obtain the highest accuracy of the classifier.
++  The project aims to develop a classification system for the "Wine Quality" dataset to predict wine quality using the PCA algorithm and the Bayes Classifier under the assumption of normal(gaussian) distribution. My goal was therefore to observe how many pca components should be applied, but also what was the ideal Train-Test split ratio, in order to obtain the highest accuracy of the classifier.
   
 +  The dataset used in this project is "Wine Quality Dataset", which can be downloaded from: https://www.kaggle.com/datasets/yasserh/wine-quality-dataset/data. The classes are unbalanced, containing more normal wines than excellent or poor. The set contains the following properties: fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free and total sulphur dioxide, density, pH, sulphate and alcohol. The output variable is wine quality, rated on a scale from 0 to 10.
   
@@ -32,9 +32,7 @@ where,
     
     - P(w𝑘) --> the prior probability of class k 
     
-+  The accuracy of the classifier for each of the presented cases was displayed in order to observe the most suitable number of PCA components and the best train-test ratio. The overall accuracy values are generally low, which may be due to the unstructured distribution of the data in the dataset, as there are not enough training examples for each considered class.
-
-+  For an even more concise analysis of this dataset, we have also smoothed the accuracy , under the same conditions, for each individual class. Specifically, we only calculated the accuracy for one class out of the 6 we had available.
++  The accuracy of the classifier for each of the presented cases was displayed in order to observe the most suitable number of PCA components and the best train-test ratio. The overall accuracy values are generally low, which may be due to the unstructured distribution of the data in the dataset, as there are not enough training examples for each considered class. Then, the accuracy was calculated per class.
 
 +  The correlation matrix shows how strongly pairs of variables are correlated. Values close to 1 or -1 indicate a strong positive or negative correlation and values close to 0 indicate no correlation.
     
