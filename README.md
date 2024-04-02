@@ -8,7 +8,7 @@ o      "Principal Component Analysis" is one of the most widely used algorithms 
 
   The 2D and 3D representations of the dataset using PCA: 
  
-    ![image](https://github.com/RalucaVidrasc/WineClassifier/assets/105721568/3d12b2ce-041c-4a85-a532-d12a29bfad65)
+   ![image](https://github.com/RalucaVidrasc/WineClassifier/assets/105721568/03e4e927-4162-463c-946b-4a3de6bd89ad)
 
    ![image](https://github.com/RalucaVidrasc/WineClassifier/assets/105721568/49efdb96-1ef9-4a82-92f6-d70418f33e69)
 
