@@ -8,9 +8,9 @@ o      "Principal Component Analysis" is one of the most widely used algorithms 
 
   The 2D and 3D representations of the dataset using PCA: 
  
-  ![image](https://github.com/RalucaVidrasc/WineClassifier/assets/105721568/cf1e3623-76d1-45a0-a2c6-7206d6c124b8)
+    ![image](https://github.com/RalucaVidrasc/WineClassifier/assets/105721568/3d12b2ce-041c-4a85-a532-d12a29bfad65)
 
- ![image](https://github.com/RalucaVidrasc/WineClassifier/assets/105721568/49efdb96-1ef9-4a82-92f6-d70418f33e69)
+   ![image](https://github.com/RalucaVidrasc/WineClassifier/assets/105721568/49efdb96-1ef9-4a82-92f6-d70418f33e69)
 
  
 o     After applying the PCA, the next step is to use a classifier to model the relationship between the principal components and the quality of the wine. The Bayes classifier is a popular choice because of its foundation in probability theory and the assumption of conditional independence. Under the assumption of normal distribution, it assumes that the data for each class (wine quality, in this case) are normally distributed and uses this assumption to calculate probabilities. 
